@@ -34,6 +34,8 @@ Follow the same instruction under <strong>Installation</strong>, except replace 
 Include in Other Projects
 -------------------------
 
+<strong>HEADS UP: Like a dope, I did not test the following until well after the fact. I'll get fliptable setup to allow you to integrate it tomorrow</strong>
+
 If you'd like to use the fliptable output string (<code>（╯°□°）╯ ┻━┻</code>) in your projects, I provide a function called <code>get_fliptable</code> which returns a copy of the fliptable string. <strong>Just remember to free the memory used by the filptable string you get from <code>get_fliptable</code></strong>
 
   [1]: https://twitter.com/climagic/status/370595711483514880
