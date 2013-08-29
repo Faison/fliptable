@@ -37,4 +37,4 @@ Include in Other Projects
 If you'd like to use the fliptable output string (<code>（╯°□°）╯ ┻━┻</code>) in your projects, I provide a function called <code>get_fliptable</code> which returns a copy of the fliptable string. <strong>Just remember to free the memory used by the filptable string you get from <code>get_fliptable</code></strong>
 
   [1]: https://twitter.com/climagic/status/370595711483514880
-  [2]: http://c.learncodethehardway.org/	"Learn C The Hard Way"
+  [2]: http://c.learncodethehardway.org/ "Learn C The Hard Way"
