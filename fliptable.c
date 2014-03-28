@@ -5,15 +5,26 @@
 
 static const char *VERSION = "1.0";
 static const char *FLIP_STRING = "（╯°□°）╯ ┻━┻";
+static const char *DOUBLE_FLIP_STRING = "┻━┻ ︵ヽ(`▭ ´)ﾉ︵﻿ ┻━┻";
 
 void fliptable()
 {
 	puts(FLIP_STRING);
 }
 
+void double_fliptable()
+{
+	puts(DOUBLE_FLIP_STRING);
+}
+
 char* get_fliptable()
 {
 	return strdup(FLIP_STRING);
+}
+
+char* get_double_fliptable()
+{
+	return strdup(DOUBLE_FLIP_STRING);
 }
 
 int main(int argc, char *argv[])
@@ -36,7 +47,10 @@ int main(int argc, char *argv[])
 						free(flip);
 						break;
 					}
-
+					case 'd':
+					{
+						double_fliptable();
+					}
 				}
 
 			}
